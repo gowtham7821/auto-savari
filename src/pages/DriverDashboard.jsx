@@ -18,9 +18,9 @@ export default function DriverDashboard() {
 
     // Hardcoded driver details
     const driverDetails = {
-        name: "Ravi",
-        autoNumber: "TN01-1234",
-        phone: "9876543210" // Default placeholder number
+        name: " VELU P ",
+        autoNumber: "TN16K7393",
+        phone: "9787714603" // Default placeholder number
     };
 
     useEffect(() => {
