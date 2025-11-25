@@ -79,7 +79,7 @@ export default function PassengerHome() {
                         width: "120px",
                         height: "120px",
                         borderRadius: "50%",
-                        border: `4px solid ${isAvailable ? "var(--success)" : "var(--danger)"}`,
+                        border: `4px solid ${isAvailable ? "var(--success-color)" : "var(--danger-color)"}`,
                         margin: "0 auto 20px",
                         display: "flex",
                         alignItems: "center",
@@ -90,7 +90,7 @@ export default function PassengerHome() {
                         🛺
                     </div>
 
-                    <h2 style={{ color: isAvailable ? "var(--success)" : "var(--danger)", fontSize: "1.5rem", marginBottom: "10px" }}>
+                    <h2 style={{ color: isAvailable ? "var(--success-color)" : "var(--danger-color)", fontSize: "1.5rem", marginBottom: "10px" }}>
                         {isAvailable ? "Auto is Available" : "Auto is Unavailable"}
                     </h2>
 
@@ -100,13 +100,13 @@ export default function PassengerHome() {
 
                 <div style={{ display: "grid", gap: "15px" }}>
                     <a href={`tel:${driverData.phone}`} style={{ textDecoration: "none" }}>
-                        <button style={{ background: "var(--success)" }}>
+                        <button className="btn" style={{ background: "var(--success-color)", color: "#000", fontSize: "1.2rem", textTransform: "uppercase", letterSpacing: "1px" }}>
                             📞 Call Now
                         </button>
                     </a>
 
                     <a href={`tel:${driverData.phone}`} style={{ textDecoration: "none" }}>
-                        <button style={{ background: "var(--primary)" }}>
+                        <button className="btn" style={{ background: "var(--primary-color)", color: "#000", fontSize: "1rem" }}>
                             📅 Call for Future Savari
                         </button>
                     </a>
