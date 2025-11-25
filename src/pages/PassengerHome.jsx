@@ -120,6 +120,7 @@ export default function PassengerHome() {
 
                 <div style={{ marginTop: "20px", textAlign: "center", color: "var(--text-muted)", fontSize: "0.9rem" }}>
                     <p>Future rides are booked via phone call only.</p>
+                    <p style={{ fontSize: "0.7rem", marginTop: "10px", opacity: 0.5 }}>App Version: 1.0.1</p>
                 </div>
             </div>
         </div>
